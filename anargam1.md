@@ -1,4 +1,4 @@
-cialfo_answers
+
 
     def self.are_anagrams?(string_a, string_b)
       string_cmp_a = string_a
