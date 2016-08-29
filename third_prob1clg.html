@@ -1,0 +1,45 @@
+<html>
+<body>
+<form action="clg.json" method="post">
+
+<script src="clg.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function())
+{
+ 
+$(".getJdata").click(function())
+{
+
+var strTable;
+strTable='';
+strTable+='<table border='2' class="table" style="padding:10px">';
+strTable+='<tr>';
+strTable+='<th>Name</th>';
+strTable+='<th>Rank</th>';
+strTable+='<th>Tuition_fees</th>';
+strTable+='<th>Total_enrollment</th>';
+strTable+='<th>Acceptance_rate</th>';
+strTable+='<th>Average_retentiion</th>';
+strTable+='<th>Graduation_rate</th>';
+strTable+='</tr>';
+
+
+});
+});
+</script>
+<br>
+<br>
+<button type="button" class="table">Get Json data</button>
+<br>
+<br>
+<div id="screenData" style="padding:10px"></div>
+
+</form>
+</body>
+</html>
