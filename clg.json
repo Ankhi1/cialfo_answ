@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<p id="demo"></p>
+<script>
+[
+  {"college_data":{
+    "name" : "Name_name",
+    "rank" : "Name_Rank",
+    "tution_fees" : "Name_tition_fees",
+    "total_enrollment" : "Name_total_enrollment",
+    "acceptance_rate" : "Name_acceptance_rate",
+    "average_retention_rates" : "Name_average_retention_rates" ,
+    "graduation_rate" : "Name_graduation_rate" 
+  }
+}
+]
+obj=JSON.parse(text);
+<script>
+</body>
+</html>
+
+
+
